@@ -79,10 +79,7 @@ border-radius: 50px;
 
   /* Conteudo */
 
-  section {
-    display: flex;
-    align-items: center;
-  }
+
   .teste{
     display: flex;
     flex-direction: column;
@@ -196,7 +193,10 @@ margin-left: 150px;
 
   /* Serviços */
 
-
+.servicosse{
+  display: flex;
+  align-items: center;
+}
   .title{
     
     margin-top: 200px;
@@ -406,24 +406,58 @@ footer a{
 
 /* RESPONSIV */
 
-  
+ 
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media screen and (max-width: 700px) {
+
+    /* body{
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 10px;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+    } */
     header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-top: 10px;
+      width: 100%;
+      margin: 0;
     }
-   /* section{
-    width: 100%;
-   } */
+
+    .logo{
+      text-align: center;
+      align-items: center;
+    }
+    header a {
+      font-size: 14px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      width: 100%;
+      margin: 0;
+    }
   
     header ul {
       margin: 0;
@@ -441,18 +475,21 @@ footer a{
         display: flex;
         align-items: center;
         justify-content: center;
+        align-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 500px;
+        margin: 0;
         margin: 0px;
         margin-top: 150px;
-        
+        width: 100%;
     }
 .teste{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+    width: 100%;
 }
     .content h1{
         font-size: 40px;
@@ -482,48 +519,6 @@ footer a{
     }
   
 
-
-  
-  
-    /* .servicos {
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      display: flex;
-      width: 100%;
-    }
-  
-.column2{
-    text-align: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-}
-  
-    .servico1, .servico2, .servico3, .servico4 {
-      text-align: center;
-      border: none;
-      align-items: center;
-      margin-bottom: 200px;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      display: flex;
-    } */
-  
-    .img {
-      display: none;
-    }
-  
-
-
-
-    .sobre p {
-      font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
     .servicos {
       flex-direction: column;
       align-items: center;
@@ -531,11 +526,66 @@ footer a{
       
      
       border: none;
-      width: 200%;
+      width: 100%;
       text-align: center;
       align-items: center;
       justify-content: center;
     }
+  
+  
+
+  
+.column2, .colum1{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 200px;
+  
+}
+  
+    .servico1, .servico2 {
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      
+      margin: 0;
+      margin: 0px;
+      margin-top: 150px;
+      width: 100%;
+      border: none;
+    } 
+    .servico3, .servico4 {
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      
+      margin: 0;
+      margin: 0px;
+      margin-top: 150px;
+      width: 100%;
+      border: none;
+    } 
+
+    .servicos h2{
+      font-size: 30px;
+      text-align: center;
+    }
+    .img {
+      display: none;
+    }
+  
+
+
+
+
+
+
     .title h1{
         text-align: center;
         align-items: center;
@@ -546,72 +596,81 @@ footer a{
         display: flex;
         font-size: 40px;
     }
-    .column1, .column2 {
-      width: 100%;
-      padding: 0;
-      border: none;
-    }
+
   
-    .servico1, .servico2, .servico3, .servico4 {
-      text-align: center;
-      margin-bottom: 50px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      align-content: center;
-      width: 100%;
-      border: none;
-    }
+
   
     .lado {
-      margin-top: 20px;
+      margin: 0px;
+    }
+    .servicos{
+      width: 100%;
+      
+      
+      
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
     }
   
     .outroservico {
-      text-align: center;
-      margin-top: 30px;
-      flex-direction: column;
+      font-size: 2em;
       display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      
+      margin: 0;
+      margin: 0px;
+      margin-top: 150px;
+      
     }
 
     .servicosse{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
 
     }
-
+.algumacoisa{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
     .sobre{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        border: none;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border: none;
     }
 
-    .sobre h2{
-        border: none;
+    .sobre h2 {
+      border: none;
+      display: none;
     }
+
     .sobre h1{
-        text-align: center;
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        border: none;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+      
+      text-align: center;
+      
+      width: 200px;
+      margin: 0;
     }
-    .sobre p{
-        display: flex;
-        width: 400px;
-        flex-direction: column;
-        border: none;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-  }
+    
+    .sobre p {
+      margin: 0;
+font-size: 20px;
+      width: 400px;
+      text-align: center;
+
+    } 
+   }  
+
+
