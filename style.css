@@ -418,18 +418,19 @@ footer a{
   
   @media screen and (max-width: 700px) {
 
-    /* body{
-      width: 10%;
+    body{
+      margin: 0;
+      
+      width: 340px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
       text-align: center;
       font-size: 10px;
-      flex-wrap: wrap;
-      margin: 0;
-      padding: 0;
-    } */
+      
+
+    }
     header {
       display: flex;
       flex-direction: column;
@@ -473,7 +474,7 @@ footer a{
       justify-content: center;
       align-items: center;
       margin-top: 20px;
-      font-size: 16px;
+      font-size: 13px;
       text-align: center;
     }
     
@@ -489,10 +490,21 @@ footer a{
       justify-content: center;
       align-items: center;
     }
-    nav ul {
-      width: 90px;
+
+    header li{
+      align-items: center;
+      display: flex;
       align-items: center;
       justify-content: center;
+    }
+    nav ul {
+      
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      display: flex;
+      margin-left: 40px;
     }
   
     header li {
@@ -501,7 +513,7 @@ footer a{
     }
 
     .last {
-      width: 110px;
+      width: 100px;
       height: 40px;
     }
 
@@ -524,7 +536,8 @@ footer a{
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    width: 100%;
+    
+    margin: 10px;
 }
     .content h1{
         font-size: 40px;
@@ -561,7 +574,7 @@ footer a{
       
      
       border: none;
-      width: 100%;
+     
       text-align: center;
       align-items: center;
       justify-content: center;
@@ -677,16 +690,21 @@ footer a{
 
     }
 .algumacoisa{
-  width: 100%;
+    
   flex-wrap: wrap;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
 }
     .sobre{
-      width: 100%;
+      width: 100px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       border: none;
+      
     }
 
     .sobre h2 {
