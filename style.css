@@ -62,7 +62,9 @@ color: #FFFFFF;
     margin-right: 20px;
     
   }
-  
+  #servicoancora{
+    display: none;
+  }
   nav ul li:last-child a {
     
     
@@ -266,6 +268,7 @@ color: #FFD613;
     flex: 1;
     text-align: center;
     margin-left: 20px;
+
   }
   .outroservico p {
     font-family: 'Poppins';
@@ -460,7 +463,7 @@ footer a{
       justify-content: center;
       align-items: center;
       margin-top: 10px;
-      
+      text-align: center;
       margin: 0;
     }
 
@@ -470,7 +473,10 @@ footer a{
       justify-content: center;
       align-items: center;
       margin-top: 20px;
+      font-size: 16px;
+      text-align: center;
     }
+    
   
     header ul {
       margin: 0;
@@ -484,8 +490,9 @@ footer a{
       align-items: center;
     }
     nav ul {
-      width: 50px;
+      width: 90px;
       align-items: center;
+      justify-content: center;
     }
   
     header li {
@@ -495,7 +502,7 @@ footer a{
 
     .last {
       width: 110px;
-      height: 30px;
+      height: 40px;
     }
 
     .content {
@@ -509,7 +516,7 @@ footer a{
         margin: 0;
         margin: 0px;
         margin-top: 150px;
-        width: 100%;
+        width: 400px;
     }
 .teste{
     display: flex;
@@ -529,7 +536,7 @@ footer a{
     }
 
     .content h2{
-        font-size: 30px;
+        font-size: 25px;
         color: #FFFFFF;
     }
     .services{
@@ -632,7 +639,7 @@ footer a{
       margin: 0px;
     }
     .servicos{
-      width: 100%;
+      width: 200px;
       
       
       
@@ -644,21 +651,28 @@ footer a{
   
     .outroservico {
       font-size: 2em;
-
-      
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       margin: 0;
-      margin: 0px;
       margin-top: 150px;
       
     }
+    .outroservico p {
+      text-align: center;
+    }
 
+    .btn{
+      align-items: center;
+    }
     .servicosse{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        
+        margin: 0;
         
 
     }
@@ -684,7 +698,7 @@ footer a{
       
       text-align: center;
       
-      width: 200px;
+      width: 300px;
       margin: 0;
     }
     
@@ -695,6 +709,16 @@ font-size: 20px;
       text-align: center;
 
     } 
+
+    footer{
+      
+      display: flex;
+      justify-content: center;
+    }
+    footer p {
+      text-align: center;
+      width: 300px;
+    }
    }  
 
 
