@@ -572,6 +572,15 @@ footer a{
         display: flex;
         flex-direction: column;
     }
+    .btnn a {
+      text-decoration: none;
+      list-style: none;
+      color: #000000;
+
+
+    }
+
+
   
 
     .servicos {
@@ -677,6 +686,7 @@ footer a{
       flex-direction: column;
       margin: 0;
       margin-top: 150px;
+      align-items: center;
       
     }
     .outroservico p {
